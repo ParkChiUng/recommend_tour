@@ -29,6 +29,7 @@ class TourDataUpdateService : Service() {
     private var prefareaCodeCount = 1
     private val numOfRows = 1000
 
+
     override fun onCreate() {
         super.onCreate()
 
