@@ -33,12 +33,12 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".MapActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.AppCompat">
-        </activity>
+<!--        <activity-->
+<!--            android:name=".fragment.MapFragment"-->
+<!--            android:exported="true"-->
+<!--            android:label="@string/app_name"-->
+<!--            android:theme="@style/Theme.AppCompat">-->
+<!--        </activity>-->
 
         <service
             android:name=".service.TourDataUpdateService"
@@ -46,8 +46,8 @@
             android:exported="false" />
 
         <meta-data
-            android:name="com.kakao.vectormap.APP_KEY"
-            android:value="39d5363dab212a0e8fda85c516b3f5ac"/>
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="o0bozgex4f" />
 
     </application>
 

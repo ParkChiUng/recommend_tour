@@ -7,10 +7,7 @@ buildscript{
     repositories{
         google()
         mavenCentral()
-
-        maven {
-            url = uri("https://devrepo.kakao.com/nexus/repository/kakaomap-releases/")
-        }
+        maven("https://naver.jfrog.io/artifactory/maven/")
     }
     dependencies {
         classpath("com.google.dagger:hilt-android-gradle-plugin:2.44.2")

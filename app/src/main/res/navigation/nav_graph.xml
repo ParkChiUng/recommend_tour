@@ -23,6 +23,11 @@
         android:name="com.recommend_tour.fragment.MapFragment"
         android:label="fragment_map"
         tools:layout="@layout/fragment_map" />
+<!--    <activity-->
+<!--        android:id="@+id/mapFragment"-->
+<!--        android:name="com.recommend_tour.fragment.MapFragment"-->
+<!--        android:label="fragment_map"-->
+<!--        tools:layout="@layout/fragment_map" />-->
     <fragment
         android:id="@+id/tourDetailFragment"
         android:name="com.recommend_tour.fragment.TourDetailFragment"

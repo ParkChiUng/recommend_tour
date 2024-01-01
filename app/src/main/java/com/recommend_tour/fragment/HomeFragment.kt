@@ -53,9 +53,9 @@ class HomeFragment : Fragment() {
 
         initViews()
 
-        viewModel.adapter.onItemClick = { contentId ->
+        viewModel.adapter.onItemClick = { tourItem ->
             val bundle = Bundle().apply {
-                putParcelable("tourItem", contentId)
+                putParcelable("tourItem", tourItem)
             }
 
             val navOptions = NavOptions.Builder().setPopUpTo(R.id.homeFragment, false).build()

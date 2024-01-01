@@ -144,12 +144,11 @@ dependencies {
     // optional - Jetpack Compose integration
     implementation("androidx.paging:paging-compose:3.3.0-alpha02")
 
-    // kakao map
-    implementation("com.kakao.maps.open:android:2.6.0")
-
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
 
     implementation("com.google.android.gms:play-services-location:21.0.1")
     implementation("com.google.firebase:firebase-crashlytics-buildtools:2.9.9")
+
+    implementation("com.naver.maps:map-sdk:3.17.0")
 }

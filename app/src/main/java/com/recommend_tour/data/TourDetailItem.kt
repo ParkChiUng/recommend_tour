@@ -19,7 +19,7 @@ open class IntroductionItem(
  *       chkcreditcard : ~~
  *       chkpet: ~~
  *     }
- * -> IntroductionItem ¿©±â¼­ reflection.
+ * -> IntroductionItem ï¿½ï¿½ï¿½â¼­ reflection.
  * -> TourDetailIntroduction("1234", "12", "~~", "~~")
  */
 
@@ -35,6 +35,10 @@ class TourDetailIntroduction(
     @SerializedName("heritage3") val heritage3: String? = null,
     @SerializedName("infocenter") val infocenter: String? = null,
     @SerializedName("opendate") val opendate: String? = null,
+    @SerializedName("parking") val parking: String? = null,
+    @SerializedName("restdate") val restdate: String? = null,
+    @SerializedName("useseason") val useseason: String? = null,
+    @SerializedName("usetime") val usetime: String? = null,
     contentId: String?,
     contenttypeid: String?,
 ) : IntroductionItem(
@@ -81,6 +85,7 @@ class FestivalIntroduction(
     val sponsor2: String? = null,
     val sponsor2tel: String? = null,
     val subevent: String? = null,
+    val spendtime: String? = null,
     val usetimefestival: String? = null,
     contentId: String? = null,
     contenttypeid: String? = null,
@@ -164,21 +169,20 @@ class LodgingIntroduction(
 
 class ShoppingIntroduction(
     val chkbabycarriageshoppin: String? = null,
-    val chkcreditcar: String? = null,
-    val shopping: String? = null,
-    val chkpetshoppin: String? = null,
-    val culturecente: String? = null,
-    val fairda: String? = null,
-    val infocentershoppin: String? = null,
-    val opendateshoppin: String? = null,
-    val opentim: String? = null,
-    val parkingshoppin: String? = null,
-    val restdateshoppin: String? = null,
-    val restroo: String? = null,
-    val saleite: String? = null,
-    val saleitemcos: String? = null,
-    val scaleshoppin: String? = null,
-    val shopguid: String? = null,
+    val chkcreditcardshopping: String? = null,
+    val chkpetshopping: String? = null,
+    val culturecenter: String? = null,
+    val fairday: String? = null,
+    val infocentershopping: String? = null,
+    val opendateshopping: String? = null,
+    val opentime: String? = null,
+    val parkingshopping: String? = null,
+    val restdateshopping: String? = null,
+    val restroom: String? = null,
+    val saleitem: String? = null,
+    val saleitemcost: String? = null,
+    val scaleshopping: String? = null,
+    val shopguide: String? = null,
     contentId: String,
     contenttypeid: String,
 ) : IntroductionItem(

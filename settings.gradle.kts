@@ -3,9 +3,7 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
-        maven {
-            url = uri("https://devrepo.kakao.com/nexus/repository/kakaomap-releases/")
-        }
+        maven("https://naver.jfrog.io/artifactory/maven/")
     }
 }
 dependencyResolutionManagement {
@@ -13,9 +11,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = uri("https://devrepo.kakao.com/nexus/repository/kakaomap-releases/")
-        }
+        maven("https://naver.jfrog.io/artifactory/maven/")
     }
 }
 
